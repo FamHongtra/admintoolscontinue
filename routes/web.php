@@ -13,8 +13,12 @@
 
 
 
-Route::get('/', function () {
-  return view('welcome');
+Route::get('/webpage1', function () {
+  return view('webpage1');
+});
+
+Route::get('/webpage2', function () {
+  return view('webpage2');
 });
 
 Route::get('/showhost', function () {
